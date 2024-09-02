@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+}
+
+
+
+nav {
+    display: flex;
+    color: red;
+    text-decoration:solid;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: green;
+    text-decoration: none;
+}
+
+.splash h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #34db6c;
+}
+
+.splash img {
+    
+    border: 5px solid #0a0a0a;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.splash > .address {
+    color: purple;
+}
+
+.splash > .tagline {
+    color: orange;
+    font-size: 20px;
+}
+
+hr {
+    border: 5px solid #20b32a;
+    border-radius: 50%;
+}
+
+.Education h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #214fd6;
+}
+
+.Education p {
+    font-family: 'Roboto', sans-serif;
+    color: #214fd6;
+}
+.Honors h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #d621a6;
+}
+.Honors dl {
+    display: grid;                 
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;                     
+    padding: 16px;                
+    border: 1px solid #ddd;        
+    border-radius: 8px;            
+    background-color: #f9f9f9;     
+    max-width: 600px;              
+    margin: 0 auto;                
+}
+
+
+.Honors dt {
+    font-weight: bold;             
+    color: #333;                   
+    padding: 8px;                 
+    background-color: #c76969;    
+}
+
+
+.Honors dd {
+    padding: 8px;                 
+    color: #474747;                    
+    line-height: 1.5;              
+}
+
+
+
+
+.Skills h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #d68b21;
+}
+.Skills ul {
+    
+    padding: 0;                  
+    margin: 0;                   
+}
+
+.Skills li {
+    
+    border: 1px solid #ddd;      
+    border-radius: 4px;          
+    padding: 10px 15px;          
+    
+}
+
+.Experience h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #72685a;
+}
+.Experience dl {
+    display: grid;                 
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;                     
+    padding: 16px;                
+    border: 1px solid #ddd;        
+    border-radius: 8px;            
+    background-color: #f9f9f9;     
+    max-width: 600px;              
+    margin: 0 auto;                
+}
+.Experience dt {
+    font-weight: bold;             
+    color: #333;                   
+    padding: 8px;                 
+    background-color: #c76969;    
+}
+
+
+.Experience dd {
+    padding: 8px;                 
+    color: #474747;                    
+    line-height: 1.5;              
+}
+.Projects h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #670e58;
+}
+.Projects ul {
+    list-style-type: none;
+    padding: 0;                  
+    margin: 0;                   
+}
+
+.Projects li {
+    
+    border: 1px solid #ddd;      
+    border-radius: 4px;          
+    padding: 10px 15px;           
+    text-decoration: none;
+    
+}
+
+a { 
+    color: #14e5c2;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: none; 
+}
+
+.three-col {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);               
+}
+.colOne {
+    
+    border: 1px solid #e51313;       
+    border-radius: 8px;           
+    padding: 15px;                
+    text-align: center;           
+}
+.colTwo {
+    
+    border: 1px solid #1389ad;       
+    border-radius: 8px;           
+    padding: 15px;                
+    text-align: center;           
+}
+.colThree {
+    
+    border: 1px solid #1e9126;       
+    border-radius: 8px;           
+    padding: 15px;                
+    text-align: center;           
+}
+.img {
+    width: 60px;
+    height: 60px;
+}
+
+.Contact {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);               
+}
+
+.items {
+    border: 1px solid #050505;       
+    border-radius: 8px;           
+    padding: 15px;                
+    text-align: center;               
+}
+
+.items form {
+    color: red;
+}
+
+.items input {
+    color: blue;
+}
